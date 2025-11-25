@@ -38,10 +38,11 @@ const menuCategories = [
     {
         name: "SNACKS",
         items: [
-            { name: "Fries", sizes: { "S": 69, "L": 89 } },
+            { name: "Fries", sizes: { "S": 69, "L": 99 } },
             { name: "Nachos", price: 89 },
             { name: "Burger", price: 49 },
-            { name: "Clubhouse", price: 69 }
+            { name: "Clubhouse", price: 69 },
+            { name: "Loglog", sizes: { "with egg": 28, "special":38}}
         ]
     },
     {
@@ -217,4 +218,5 @@ document.getElementById('resetDaily').addEventListener("click", () => {
 
 displayMenu();
 updateOrder();
+
 };
