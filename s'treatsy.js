@@ -42,7 +42,7 @@ const menuCategories = [
             { name: "Nachos", price: 89 },
             { name: "Burger", price: 49 },
             { name: "Clubhouse", price: 69 },
-            { name: "Loglog", sizes: { "with egg": 28, "special":38}}
+            { name: "Loglog", sizes: { "S": 28, "L":38}}
         ]
     },
     {
@@ -220,3 +220,4 @@ displayMenu();
 updateOrder();
 
 };
+
