@@ -39,7 +39,6 @@ const menuCategories = [
         name: "SNACKS",
         items: [
             { name: "Fries", sizes: { "S": 69, "L": 99 } },
-            { name: "Loglog", sizes: {"S": 28, "L": 38 } },
             { name: "Nachos", price: 89 },
             { name: "Burger", price: 49 },
             { name: "Clubhouse", price: 69 }
@@ -221,6 +220,7 @@ displayMenu();
 updateOrder();
 
 };
+
 
 
 
